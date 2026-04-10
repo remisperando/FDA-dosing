@@ -1,0 +1,148 @@
+base_name,candidate_count,fixed_dose_mg_values,dose_mg_per_kg_values,dose_mg_per_m2_values,top_frequency_mentions,top_route_mentions,top_phase_mentions,maintenance_regimen_candidates,intended_maintenance_regimen,needs_manual_review
+adalimumab,1503,10|1000|160|20|2800|40|80,,,every other week|weekly,subcutaneous,loading|maintenance,40 mg; q2w|80 mg; q2w|20 mg; q2w|40 mg; weekly|40 mg; q2w; subcutaneous,40 mg; q2w,true
+ado-trastuzumab,17,100|160|20|2000,2.4|3|3.6,,every 3 week,intravenous,,3.6 mg/kg; q3w; intravenous,3.6 mg/kg; q3w; intravenous,false
+alemtuzumab,37,0|10|1000|12|250|3|30|36|50|60|90,,,daily,intravenous,,3 mg; daily|10 mg; daily,3 mg; daily,true
+alirocumab,42,150|300|75,,,every 2 week|every 4 week,,,150 mg; q2w|300 mg; q4w|75 mg; q2w|150 mg; q4w,150 mg; q2w,false
+amivantamab,117,0|10|100|160|20|21000|23000|240|25|350|360|400|50|500|520|600|640|650|700|750|8,,,Weekly|every 3 week|Every 3 week|every 2 week|Every 2 week,oral|intravenous,maintenance|loading,400 mg; q3w|weekly|100 mg; daily|bd|350 mg; q3w|400 mg; q3w|750 mg; q3w,400 mg; q3w|weekly,true
+anifrolumab,6,150|300,,,every 4 week,intravenous,,300 mg; q4w; intravenous,300 mg; q4w; intravenous,false
+ansuvimab,14,20000|30|400|50,50,,,intravenous,,,,true
+atezolizumab,48,10|1200|125|16.8|1680|3.2|60|720|840|875|960,15,,every 4 week|daily|every 3 week|twice daily|once daily,intravenous|oral,maintenance,1680 mg; q4w|60 mg; daily|daily|720 mg; daily|bd|1200 mg; q3w|840 mg; q2w,1680 mg; q4w,true
+atoltivimab,29,16.67|23.7|241.7|30|33.33|483.3|50|500|9.5,,,,intravenous,,,,true
+avelumab,13,10|20|200|5|800,,,every 2 week|daily|twice daily,intravenous,,800 mg; q2w|5 mg; daily|bd|800 mg; q2w; intravenous,800 mg; q2w,true
+axatilimab,16,0.24|0.75|22|23|35|50|9,0.2|0.3,,every 2 week,intravenous,,35 mg; q2w|35 mg; q2w; intravenous|23 mg; q2w,35 mg; q2w,true
+basiliximab,4,10|20,,,,,,,,true
+belantamab,16,0.2|2|200000|50|70,1.9|2.5,,every 3 week|every 8 week,intravenous,,2.5 mg/kg; q3w|2.5 mg/kg; q3w; intravenous|1.9 mg/kg; q3w|q8w|1.9 mg/kg; q3w,2.5 mg/kg; q3w,true
+belimumab,18,120|200|4|400|80,10,,once weekly|weekly|every 2 week,subcutaneous|intravenous,maintenance,200 mg; q1w|weekly|200 mg; q2w|200 mg; q2w; subcutaneous|400 mg; q1w|weekly|200 mg; q1w|weekly; subcutaneous,200 mg; q1w|weekly,true
+benralizumab,18,10|1000|2300|30|3000,,,every 4 week|every 8 week,subcutaneous,maintenance,30 mg; q4w|q8w|10 mg; q4w|q8w|30 mg; q4w|30 mg; q4w; subcutaneous,30 mg; q4w|q8w,true
+bevacizumab,274,100|200|2000|25|400,10|15|5|7.5,,every 3 week|every 2 week,intravenous,loading,15 mg/kg; q3w|10 mg/kg; q2w|5 mg/kg; q2w|5 mg/kg; q2w|q3w|7.5 mg/kg; q2w|q3w,15 mg/kg; q3w,true
+bezlotoxumab,7,0|1|10|25,10,,,intravenous,,,,true
+bimekizumab,14,160|320,,,every 4 week|every 8 week,subcutaneous,maintenance|loading,320 mg; q8w; subcutaneous|320 mg; q4w|320 mg; q4w; subcutaneous|160 mg; q4w; subcutaneous,320 mg; q8w; subcutaneous,false
+blinatumomab,32,0.005|0.009|0.015|0.028|0.035|100|16|20|5|8,,,,,maintenance,,,true
+brentuximab,71,0.4|1.8|120|180|5|50|80|90,0.8|0.9|1.2|1.8,,every 3 week|every 2 week,intravenous|subcutaneous,maintenance,180 mg; q3w|120 mg; q3w|1.8 mg/kg; q3w|120 mg; q2w|1.2 mg/kg; q3w,180 mg; q3w,true
+brodalumab,5,210,,,every 2 week,subcutaneous,,210 mg; q2w,210 mg; q2w,false
+brolucizumab,14,120|2100|6,,,monthly,,,120 mg; monthly,120 mg; monthly,false
+burosumab,55,1|10|180|20|2800|30|40|5|90,0.4|0.5|0.75|0.8|1|1.5|2,,every 2 week|every 4 week,subcutaneous,,180 mg; q2w|0.5 mg/kg; q4w|10 mg; q2w|40 mg; q4w|0.4 mg/kg; q2w,180 mg; q2w,true
+canakinumab,20,150|2100|300,2|3|4,,every 4 week|every 8 week,subcutaneous,,300 mg; q4w|150 mg; q8w|150 mg; q4w|2 mg/kg; q4w|2 mg/kg; q8w,300 mg; q4w,false
+caplacizumab,8,11,,,daily|once daily,subcutaneous|intravenous,,11 mg; daily|daily; subcutaneous,11 mg; daily|daily; subcutaneous,false
+cemiplimab,18,1|10|20|350|50|700,,,every 3 week|every 6 week,,,350 mg; q3w|700 mg; q6w,350 mg; q3w,true
+certolizumab,46,100|200|400|50,,,every other week|every 4 week|every 2 week,subcutaneous,loading,200 mg; q2w|400 mg; q4w|50 mg; q2w|100 mg; q2w,200 mg; q2w,true
+cetuximab,21,10|100|150|2|200|250|400|500,,,weekly|every 2 week|once weekly,intravenous,maintenance|loading,250 mg; weekly|500 mg; q2w; intravenous|250 mg; q1w|weekly,250 mg; weekly,true
+clesrovimab,4,105,,,,intramuscular,,,,true
+concizumab,28,0.4|1|100|150|300|40|60,0.15|0.2|0.25|1,,daily|once daily|Once daily,,maintenance|loading,0.2 mg/kg; daily|daily|0.25 mg/kg; daily|daily|0.15 mg/kg; daily|daily,0.2 mg/kg; daily|daily,true
+cosibelimab,9,10|200|300|60,,,every 3 week,intravenous,,200 mg; q3w; intravenous,200 mg; q3w; intravenous,false
+crizanlizumab,7,10|100|5,5,,every 4 week,intravenous,loading|maintenance,5 mg/kg; q4w; intravenous,5 mg/kg; q4w; intravenous,false
+crovalimab,22,0|1020|15|15000|170|18000|20|21000|25000|26000|27000|340|500|680,,,every 4 week|Q4W,intravenous|subcutaneous,loading|maintenance,340 mg; q4w|q4w,340 mg; q4w|q4w,true
+daratumumab,52,0|100|120|18000|20|22000|25|400|50|60|650|800,16|8,,weekly,intravenous,loading|maintenance,16 mg/kg; weekly; intravenous|800 mg; weekly|16 mg/kg; weekly,16 mg/kg; weekly; intravenous,true
+datopotamab,15,0|0.1|100|20|270|360|50|540,3|4|6,,every 3 week|daily,oral|intravenous,maintenance,540 mg; q3w; intravenous|0.1 mg; daily; oral|3 mg/kg; q3w,540 mg; q3w; intravenous,true
+denosumab,152,1000|120|2300|60|70,,,every 4 week|every 6 month|daily,subcutaneous,,60 mg; every 6 month; subcutaneous|1000 mg; daily|120 mg; q4w; subcutaneous|120 mg; q4w,60 mg; every 6 month; subcutaneous,true
+depemokimab,6,100,,,every 6 month,subcutaneous,,100 mg; every 6 month; subcutaneous,100 mg; every 6 month; subcutaneous,false
+dinutuximab,22,0.875|1.75|17.5|3.5|50|650,0.025|0.05|1|10|15,,,intravenous,,,,true
+donanemab,29,10|17.5|350|4|400|50|700,,,,,,,,true
+dostarlimab,15,0|10|50|500,,,every 3 week|every 6 week,intravenous,maintenance,500 mg; q3w|q6w|0 mg; q3w|q6w,500 mg; q3w|q6w,false
+dupilumab,51,150|175|200|300|400|600,,,Q2W|every 2 week|Q4W|every 4 week|every other week,oral|subcutaneous,loading|maintenance,300 mg; q2w|q2w|200 mg; q2w|q2w|300 mg; q4w|q4w|300 mg; q2w|200 mg; q4w|q4w,300 mg; q2w|q2w,true
+durvalumab,83,1|10|120|15|300|50|500|75,1|10|15|20|4,,every 4 week|every 3 week|every 2 week,,maintenance,20 mg/kg; q4w|500 mg; q4w|20 mg/kg; q3w|500 mg; q3w|q4w|500 mg; q3w,20 mg/kg; q4w,true
+eculizumab,136,10|1200|200|300|5|600|900,,,every 2 week|weekly|every 3 week|every 4 week,intravenous,maintenance,900 mg; q2w|600 mg; weekly|900 mg; weekly|600 mg; q2w|300 mg; q2w,900 mg; q2w,true
+elotuzumab,44,1|1000|150|20|25|28|300|4|40|400|50|6|8,10|20,,every 2 week|every 4 week,intravenous|oral,maintenance,10 mg/kg; q2w|20 mg/kg; q4w,10 mg/kg; q2w,true
+elranatamab,116,0|10|12|20|2000|2019000|25|30000|32|40|44|650|76|8000,,,weekly|Weekly|Every 2 Week|Every 4 Week|every 2 week,,maintenance,76 mg; weekly|76 mg; weekly|weekly|76 mg; q2w|weekly|76 mg; q4w|weekly|76 mg; q2w|q2w|weekly,76 mg; weekly,true
+emapalumab,59,0.25|1.25|10|100|12.5|2.5|25|250|5|50|500,1|10|3|6,5,every 3 day|daily|every 2 day|once daily,intravenous,loading,3 mg/kg; q3d|10 mg/kg; daily|q2d|daily,3 mg/kg; q3d,true
+emicizumab,23,105|12|150|18000|26000|27000|30|300|60,1.5|3|6,,once weekly|weekly,subcutaneous,maintenance,3 mg/kg; q1w|weekly; subcutaneous|1.5 mg/kg; q1w|weekly; subcutaneous,3 mg/kg; q1w|weekly; subcutaneous,true
+enfortumab,30,0.3|10|100|125|20|250|30|4|50|75,0.5|0.75|1|1.25,,,intravenous,,,,true
+epcoritamab,78,0|0.16|0.8|10|100|15|20|2019000|3|375|4|48|50|650,,,weekly,intravenous|oral,maintenance|loading,15 mg; weekly; intravenous|100 mg; weekly; intravenous|50 mg; weekly; intravenous|650 mg; weekly; intravenous|0 mg; weekly; intravenous,15 mg; weekly; intravenous,true
+eptinezumab,8,100|300,,,every 3 month,intravenous,,100 mg; every 3 month; intravenous|300 mg; every 3 month|300 mg; every 3 month; intravenous,100 mg; every 3 month; intravenous,false
+erenumab,12,140|70,,,monthly|once monthly,,,70 mg; monthly|q1m|140 mg; monthly|q1m,70 mg; monthly|q1m,false
+evinacumab,10,0.5|150|20|200|345,15,,every 4 week|monthly|once monthly,intravenous,,15 mg/kg; q4w|monthly|q1m; intravenous,15 mg/kg; q4w|monthly|q1m; intravenous,true
+evolocumab,13,140|420,,,every 2 week|monthly|once monthly,,,420 mg; monthly|q1m|420 mg; q2w|140 mg; q2w,420 mg; monthly|q1m,false
+fam-trastuzumab,23,100|20|2000|420|840,3.2|4.4|5.4|6.4,,every 3 week,,maintenance,5.4 mg/kg; q3w|6.4 mg/kg; q3w|420 mg; q3w,5.4 mg/kg; q3w,true
+faricimab,15,1000|120|2100|6,,,every 4 week|monthly|every 28 day|every 8 week,,,120 mg; q4w|monthly|120 mg; q28d|q4w|monthly|6 mg; q4w|6 mg; q8w,120 mg; q4w|monthly,false
+fremanezumab,12,225|675,,,monthly|every 3 month,subcutaneous,,225 mg; monthly|675 mg; every 3 month|675 mg; every 3 month; subcutaneous,225 mg; monthly,false
+galcanezumab,15,100|120|240|300,,,monthly,subcutaneous,loading,120 mg; monthly|100 mg; monthly,120 mg; monthly,true
+garadacimab,12,167|200|400,,,monthly|once monthly,,maintenance,200 mg; monthly|q1m,200 mg; monthly|q1m,false
+gemtuzumab,54,0.075|0.234|1|1000|100000|2|3|3.9|30000|4.5|50|500|6|650|75000,0.1|1|15,,every 4 week,intravenous,,2 mg; q4w|4.5 mg; q4w,2 mg; q4w,true
+glofitamab,73,0|0.1|0.6|1|10|100|2.5|20|2019000|30|400|50|500|80,,,,intravenous,maintenance,,,true
+golimumab,26,100|12.5|2|200|2000|50|80,2,,every 8 week|every 4 week,intravenous|subcutaneous,maintenance|loading,80 mg; q8w; intravenous|50 mg; q4w; subcutaneous|2 mg/kg; q8w; intravenous|2 mg; q8w; intravenous|2000 mg; q8w; intravenous,80 mg; q8w; intravenous,true
+guselkumab,20,0.8|10|100|200|400,,,every 8 week|every 4 week,subcutaneous|intravenous,loading|maintenance,100 mg; q8w; subcutaneous|200 mg; q4w; subcutaneous,100 mg; q8w; subcutaneous,true
+ibalizumab,21,0|150|200|800,,,every 2 week|every 14 day,intravenous,maintenance|loading,800 mg; q2w; intravenous|800 mg; q14d,800 mg; q2w; intravenous,false
+ibritumomab,14,100|20000|250|3.2|400|50|650,,,,intravenous,loading,,,true
+idarucizumab,11,2500|5000,,,,,,,,true
+inebilizumab,14,10|100|125|25|300|50|500|650|80,,,every 6 month,intravenous|oral,,300 mg; every 6 month; intravenous,300 mg; every 6 month; intravenous,true
+infliximab,119,0.4|10|100|120|4,10|3|5,,every 8 week|every 4 week|every 6 week,intravenous,maintenance,5 mg/kg; q8w|10 mg/kg; q8w|3 mg/kg; q8w|10 mg/kg; q4w|q8w|5 mg/kg; q6w,5 mg/kg; q8w,true
+inotuzumab,27,0.01|0.025|0.1|0.25|0.5|0.8|0.9|1.5|1.8,,,,,maintenance,,,true
+ipilimumab,38,1|10|2|200|240|360|5|50,1|3,,every 3 week|every 12 week|every 6 week|every 2 week|Every 12 week,,,3 mg/kg; q3w|360 mg; q3w|1 mg/kg; q3w|3 mg/kg; q12w|240 mg; q3w,3 mg/kg; q3w,true
+isatuximab,18,0|100|20|25|40|50|500|650,10,,,intravenous,,,,true
+ixekizumab,37,160|20|40|80,,,every 4 week,subcutaneous,loading,80 mg; q4w|40 mg; q4w|20 mg; q4w|80 mg; q4w; subcutaneous,80 mg; q4w,true
+lanadelumab,18,150|300,,,every 2 week|q4w|every 4 week|q2w,,,150 mg; q4w|150 mg; q2w|300 mg; q2w|300 mg; q2w|q2w|300 mg; q4w|q4w,150 mg; q4w,false
+lebrikizumab,12,125|250|500,,,every 2 week|every 4 week,,loading,250 mg; q2w|250 mg; q4w,250 mg; q2w,true
+lecanemab,20,100|200|360|500,10,,every 2 week|every 4 week,subcutaneous|intravenous,maintenance,10 mg/kg; q2w; intravenous|10 mg/kg; q4w; subcutaneous,10 mg/kg; q2w; intravenous,false
+linvoseltamab,59,0|10|2|2.5|20|200|2019000|25|40|5|650|8000,,,weekly|every 4 week|every 2 week|Every 4 Week|once weekly,,maintenance,200 mg; q4w|q4w|200 mg; q1w|weekly|weekly|200 mg; q2w|q2w|weekly|200 mg; weekly|200 mg; q2w|weekly,200 mg; q4w|q4w,true
+loncastuximab,11,10|4|5,0.075|0.15,,every 3 week|daily|twice daily,intravenous,maintenance,4 mg; daily|bd|0.15 mg/kg; q3w|0.075 mg/kg; q3w|0.15 mg/kg; q3w; intravenous,4 mg; daily|bd,false
+maftivimab,29,16.67|23.7|241.7|30|33.33|483.3|50|500|9.5,,,,intravenous,,,,true
+margetuximab,16,0.5|25|250|7.2,15,,every 3 week,intravenous,loading|maintenance,15 mg/kg; q3w|15 mg/kg; q3w; intravenous,15 mg/kg; q3w,false
+marstacimab,18,150|2400|300,,,weekly|once weekly,subcutaneous,maintenance|loading,300 mg; weekly; subcutaneous|300 mg; weekly|150 mg; weekly; subcutaneous|150 mg; q1w|weekly; subcutaneous,300 mg; weekly; subcutaneous,false
+mepolizumab,29,100|300|40,,,every 4 week,,,100 mg; q4w|300 mg; q4w|40 mg; q4w,100 mg; q4w,false
+mirikizumab,31,100|18000|20|200|21000|300|900,,,,subcutaneous|intravenous,,,,true
+mirvetuximab,22,1|10|100|2|25|3|325|5|50|650,4|5|6,,every 3 week,intravenous|oral,maintenance,6 mg/kg; q3w; intravenous|5 mg/kg; q3w|4 mg/kg; q3w,6 mg/kg; q3w; intravenous,true
+mogamulizumab,8,0.1|20|3|4,1,,,intravenous,maintenance,,,true
+mosunetuzumab,103,0|1|100|18000|2|20|2019000|21000|25000|30|30000|45|5|50|500|60|80,,,,intravenous|oral|subcutaneous,maintenance,,,true
+narsoplimab,12,0.8|185|370|8,4,,once weekly|weekly,intravenous,,370 mg; q1w|weekly; intravenous|4 mg/kg; q1w|weekly; intravenous,370 mg; q1w|weekly; intravenous,false
+natalizumab,18,2.6|20|300|5,,,,intravenous,,,,true
+naxitamab,13,150|4|40|80,2|3,,,intravenous,,,,true
+necitumumab,10,16|400|600|800,,,,intravenous,maintenance,,,true
+nemolizumab,8,30|60,,,every 4 week|every 8 week,,,30 mg; q4w|60 mg; q4w|30 mg; q8w,30 mg; q4w,false
+nipocalimab,13,185|200|300,15|30,,,intravenous,maintenance|loading,,,true
+nirsevimab,19,100|200|50,,,,intramuscular,,,,true
+nivolumab,168,1|10|100|12|120|160|200|23000|240|25000|3|300|360|4|40|480|600|80|900,1|3|6,,every 4 week|every 2 week|every 3 week|every 6 week|daily,subcutaneous,,480 mg; q4w|600 mg; q2w|q4w|200 mg; q2w|q4w|360 mg; q3w|900 mg; q3w,480 mg; q4w,true
+obiltoxaximab,17,100|600,16|24|32,,,intravenous,,,,true
+obinutuzumab,62,0|0.4|100|20|25|4|400|50|80|900,,,every 2 month|every 6 month|Every 6 month,intravenous,loading|maintenance,0 mg; every 6 month|0 mg; every 2 month,0 mg; every 6 month,true
+ocrelizumab,28,1.2|100|20|21000|24000|26000|30|300|40|600|920,,,every 6 month,intravenous|subcutaneous,maintenance|loading,600 mg; every 6 month; intravenous|300 mg; every 6 month|920 mg; every 6 month; intravenous|920 mg; every 6 month; subcutaneous,600 mg; every 6 month; intravenous,true
+odesivimab,29,16.67|23.7|241.7|30|33.33|483.3|50|500|9.5,,,,intravenous,,,,true
+ofatumumab,8,20,,,monthly|once monthly,subcutaneous,maintenance,20 mg; monthly|20 mg; monthly|q1m; subcutaneous,20 mg; monthly,false
+omalizumab,55,150|225|300|375|450|525|600|75,,,every 4 week,subcutaneous,,300 mg; q4w; subcutaneous,300 mg; q4w; subcutaneous,true
+palivizumab,8,100|15|50,,,monthly,intramuscular,,15 mg; monthly|15 mg; monthly; intramuscular,15 mg; monthly,false
+panitumumab,19,10|100|1000|20|400,6,,every 14 day,intravenous,,6 mg/kg; q14d; intravenous,6 mg/kg; q14d; intravenous,true
+pembrolizumab,94,1|10|100|165|20|200|21000|25|30000|395|400|5|790,2,,every 6 week|every 3 week|daily|twice daily|once daily,subcutaneous,loading,400 mg; q6w|790 mg; q6w|200 mg; q3w|395 mg; q3w|20 mg; daily|daily,400 mg; q6w,true
+penpulimab,15,10|100|1000|2|200|5|80,,,every 3 week|Every 3 week|every 2 week|Every 2 Week,intravenous,,200 mg; q3w|200 mg; q2w|200 mg; q3w; intravenous|200 mg; q3w|q3w|1000 mg; q3w,200 mg; q3w,true
+pertuzumab,63,100|200|2000|25000|27000|30|40|420|60|600|75|80|840,6|8,,every 3 week,intravenous|subcutaneous,maintenance|loading,600 mg; q3w|840 mg; q3w; intravenous|8 mg/kg; q3w; intravenous|420 mg; q3w|6 mg/kg; q3w,600 mg; q3w,true
+polatuzumab,23,140|2.7|20|30|375|50|90,1|1.4|1.8,,every 21 day,intravenous,,1.8 mg/kg; q21d; intravenous,1.8 mg/kg; q21d; intravenous,true
+pozelimab,19,1000|20|200|21000|25000|27000|400|6.7|800,10|12|30,,once weekly|weekly,intravenous|subcutaneous,,10 mg/kg; q1w|weekly; subcutaneous|12 mg/kg; q1w|weekly|800 mg; q1w|weekly,10 mg/kg; q1w|weekly; subcutaneous,true
+ramucirumab,26,10|100|2000|3000|500,10|5|6|8,,every 2 week|weekly|daily,intravenous,loading,8 mg/kg; q2w|8 mg/kg; q2w; intravenous|8 mg/kg; q2w|weekly|10 mg/kg; daily|q2w|10 mg/kg; q2w; intravenous,8 mg/kg; q2w,true
+ranibizumab,98,0.3|0.5|10|100|2|2100|30000|6,,,every 24 week|every 36 week,,loading,100 mg; q24w|100 mg; q36w,100 mg; q24w,true
+ravulizumab,6,100|300|50,,,,,,,,true
+raxibacumab,19,32|50|700,40|60|80,,,intravenous,,,,true
+relatlimab,20,1|10|12|160|240|3|4|480|80,,,every 4 week,,,160 mg; q4w,160 mg; q4w,true
+reslizumab,6,10|100,3,,every 4 week,intravenous,,3 mg/kg; q4w; intravenous,3 mg/kg; q4w; intravenous,false
+retifanlimab,17,1.4|10|25|375|500,,,every 4 week|every 3 week,,,500 mg; q4w|375 mg; q3w,500 mg; q4w,true
+risankizumab,62,1.2|150|180|200|2200|360|6|60|600|90,,,every 12 week|every 8 week,intravenous|subcutaneous,loading|maintenance,150 mg; q12w; subcutaneous|360 mg; q8w; subcutaneous,150 mg; q12w; subcutaneous,true
+rituximab,189,0|1|10|100|1000|120|250|30000|375|4|400|50|500|600,0.5|1|30,375,every 6 month|once weekly|weekly|every 28 day|every 16 week,intravenous|subcutaneous|oral,maintenance,500 mg; every 6 month; intravenous|500 mg; q28d|375 mg; q1w|weekly; intravenous|0 mg; q16w|q24w; intravenous|375 mg; q1w|weekly,500 mg; every 6 month; intravenous,true
+romosozumab,7,105|210,,,,,,,,true
+rozanolixizumab,13,140|26000|280|420|560|840,,,once weekly|weekly,subcutaneous,maintenance,840 mg; q1w|weekly; subcutaneous,840 mg; q1w|weekly; subcutaneous,true
+sacituzumab,12,1.1|10|180|3.4,10|5|7.5,,once weekly|weekly,intravenous,,10 mg/kg; q1w|weekly|10 mg/kg; q1w|weekly; intravenous|7.5 mg/kg; q1w|weekly,10 mg/kg; q1w|weekly,false
+sarilumab,18,150|200|2100,,,every 2 week,subcutaneous,,200 mg; q2w,200 mg; q2w,false
+satralizumab,10,120,,,every 4 week,subcutaneous,maintenance,120 mg; q4w|120 mg; q4w; subcutaneous,120 mg; q4w,false
+secukinumab,48,125|150|300|75,1.75|6,,every 4 week|every 2 week,subcutaneous|intravenous,maintenance|loading,150 mg; q4w|300 mg; q4w; subcutaneous|6 mg/kg; q4w|1.75 mg/kg; q4w|300 mg; q4w,150 mg; q4w,false
+sibeprenlimab,6,200|400,,,every 4 week,subcutaneous,,400 mg; q4w|400 mg; q4w; subcutaneous,400 mg; q4w,false
+siltuximab,11,100|17000|20|400,11,,every 3 week,intravenous,,11 mg/kg; q3w; intravenous,11 mg/kg; q3w; intravenous,false
+spesolimab,48,150|300|450|60|600|900,,,every 4 week,intravenous|subcutaneous,loading|maintenance,300 mg; q4w,300 mg; q4w,true
+sutimlimab,11,100|50|500,,,weekly,intravenous,,500 mg; weekly; intravenous,500 mg; weekly; intravenous,false
+tafasitamab,24,2|20|200|25|375|40|8,12,,,intravenous,,,,true
+talquetamab,60,0|10|16|2|2000|2019000|3|40|50|650|8000,0.01|0.06|0.4|0.8,,weekly|every 2 week|Weekly|Every 2 Week|once weekly,intravenous|oral,maintenance,0.8 mg/kg; q2w|0.4 mg/kg; q2w|q1w|weekly|0.06 mg/kg; weekly|weekly|0.4 mg/kg; weekly|weekly|0.8 mg/kg; q2w|weekly,0.8 mg/kg; q2w,true
+tarlatamab,43,0.9|1|10|1000|2.4|4|8|8000,1,,every 2 week,intravenous|oral,maintenance,10 mg; q2w,10 mg; q2w,true
+teclistamab,62,0|10|153|16|2000|2019000|30|50|650|8000|90,0.06|0.3|1.5|3,,once weekly|Weekly|weekly,intravenous|oral,maintenance,1.5 mg/kg; q1w|weekly|weekly,1.5 mg/kg; q1w|weekly|weekly,true
+telisotuzumab,20,0|1|10|100|125|190|20|50,1|1.3|1.6|1.9,,every 2 week,intravenous,,1.9 mg/kg; q2w|190 mg; q2w; intravenous|1.6 mg/kg; q2w|1.3 mg/kg; q2w|1 mg/kg; q2w,1.9 mg/kg; q2w,true
+teplizumab,12,0.03|0.065|0.1|0.125|0.25|0.5|1|10000|2,,,,,,,,true
+teprotumumab,12,1800|47.6|500,10|20,,every 3 week,intravenous,loading,20 mg/kg; q3w; intravenous,20 mg/kg; q3w; intravenous,true
+tezepelumab,9,110|210,,,every 4 week,,,210 mg; q4w,210 mg; q4w,false
+tildrakizumab,4,100,,,every 12 week,,maintenance,100 mg; q12w,100 mg; q12w,false
+tislelizumab,22,10|100|150|2|200|300|400|5,,,every 6 week|every 2 week|every 3 week|every 4 week,,loading,400 mg; q6w|150 mg; q2w|200 mg; q3w|300 mg; q4w,400 mg; q6w,true
+tisotumab,14,0.7|10|130|2.4|200|40|90,0.9|1.3|2,,every 3 week,intravenous,,200 mg; q3w; intravenous,200 mg; q3w; intravenous,true
+tocilizumab,430,10|12|162|19000|20|200|2100|4|400|6|600|8|80|800,10|12|4|6|8,,every other week|every 4 week|Every 2 Week|every 3 week|every 2 week,intravenous|subcutaneous,loading,6 mg; q4w|162 mg; q2w; subcutaneous|162 mg; q2w; intravenous|4 mg; q4w|8 mg; q4w,6 mg; q4w,true
+toripalimab,11,1|10|240|3|40,3,,,,,,,true
+tralokinumab,29,150|300|600,,,every other week|every 4 week,,maintenance|loading,150 mg; q2w|300 mg; q2w|300 mg; q4w,150 mg; q2w,false
+trastuzumab,334,100|120|150|160|20|200|2000|21|25000|27000|40|420|60|600|75|80|840,2|2.4|3|3.2|3.6|4|4.4|5.4|6|6.4|8,,weekly|every 3 week|once weekly,intravenous|subcutaneous,maintenance|loading,2 mg/kg; weekly; intravenous|600 mg; q3w|4 mg/kg; weekly; intravenous|6 mg/kg; q3w; intravenous|4 mg/kg; q1w|weekly; intravenous,2 mg/kg; weekly; intravenous,true
+tremelimumab,34,0.1|10|20|25|300|500|75,1|20|4,,every 4 week|every 3 week,intravenous,,20 mg/kg; q4w|500 mg; q4w|300 mg; q4w|75 mg; q3w|q4w|500 mg; q3w|q4w,20 mg/kg; q4w,true
+ublituximab,19,100|150|25|450,,,every 24 week,intravenous|oral,maintenance,450 mg; q24w; intravenous|450 mg; q24w,450 mg; q24w; intravenous,false
+ustekinumab,774,130|2400|260|27000|390|45|5|520|90,0.75,,every 12 week|every 8 week,intravenous|subcutaneous,loading|maintenance,45 mg; q12w|90 mg; q12w|90 mg; q8w; intravenous|90 mg; q12w; subcutaneous,45 mg; q12w,true
+vedolizumab,15,108|300,,,every 2 week,intravenous,maintenance,108 mg; q2w,108 mg; q2w,false
+vilobelimab,5,10|200|3.2|800,,,,intravenous,,,,true
+zanidatamab,12,0.4|300|50|6,15|20,,every 2 week,intravenous,,20 mg/kg; q2w; intravenous,20 mg/kg; q2w; intravenous,false
+zenocutuzumab,24,0|10|1000|20|375|5|750,,,every 2 week,intravenous|oral,loading,750 mg; q2w|750 mg; q2w; intravenous,750 mg; q2w,true
+zolbetuximab,22,100|20|200|265|300|400|5|50|600|75|800,,,every 3 week|every 2 week,,maintenance,600 mg; q3w|400 mg; q2w,600 mg; q3w,true
