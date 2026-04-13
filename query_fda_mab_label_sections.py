@@ -81,6 +81,20 @@ def first_openfda_values(item: dict, key: str) -> str:
     return "|".join(cleaned)
 
 
+def normalize_text(value: str) -> str:
+    """Normalize text for stable deduplication keys."""
+    return value.strip().lower()
+
+
+def effective_time_value(item: dict) -> int:
+    """Convert openFDA effective_time values into a sortable integer."""
+    raw_value = str(item.get("effective_time", "") or "").strip()
+    try:
+        return int(raw_value)
+    except ValueError:
+        return -1
+
+
 def extract_label_row(base_name: str, item: dict) -> dict[str, str]:
     """Extract target sections and metadata from one label record."""
     return {
@@ -105,8 +119,7 @@ def query_label_sections(
     sleep_seconds: float,
 ) -> list[dict[str, str]]:
     """Query openFDA label records for all base mAbs and extract sections."""
-    rows: list[dict[str, str]] = []
-    seen_keys: set[tuple[str, str, str]] = set()
+    latest_rows: dict[tuple[str, str], dict[str, str]] = {}
 
     for idx, base_name in enumerate(base_names, start=1):
         search = f'openfda.generic_name:"{base_name}"'
@@ -129,11 +142,13 @@ def query_label_sections(
 
             for item in results:
                 row = extract_label_row(base_name, item)
-                dedupe_key = (row["base_name"], row["set_id"], row["id"])
-                if dedupe_key in seen_keys:
-                    continue
-                seen_keys.add(dedupe_key)
-                rows.append(row)
+                generic_name = normalize_text(row["generic_name"])
+                brand_name = normalize_text(row["brand_name"])
+                dedupe_key = (generic_name, brand_name)
+
+                existing_row = latest_rows.get(dedupe_key)
+                if existing_row is None or effective_time_value(row) > effective_time_value(existing_row):
+                    latest_rows[dedupe_key] = row
 
             batch_count = len(results)
             fetched += batch_count
@@ -147,7 +162,15 @@ def query_label_sections(
 
         print(f"Processed {idx}/{len(base_names)}: {base_name}", file=sys.stderr)
 
-    return rows
+    return sorted(
+        latest_rows.values(),
+        key=lambda row: (
+            row["base_name"],
+            normalize_text(row["generic_name"]),
+            normalize_text(row["brand_name"]),
+            row["effective_time"],
+        ),
+    )
 
 
 def write_csv(rows: list[dict[str, str]], output_csv: str) -> None:
