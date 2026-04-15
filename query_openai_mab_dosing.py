@@ -137,7 +137,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Send grouped mAb label sections to OpenAI")
     parser.add_argument("--input-csv", default="mabs_label_sections.csv", help="input CSV path")
     parser.add_argument("--output-csv", default="mabs_dosing_from_openai.csv", help="output CSV-like text file")
-    parser.add_argument("--model", default="gpt-4.1-mini", help="OpenAI model name")
+    parser.add_argument("--model", default="gpt-5.4-mini", help="OpenAI model name")
     parser.add_argument("--api-key", default="", help="OpenAI API key (overrides OPENAI_API_KEY)")
     parser.add_argument("--max-groups", type=int, default=1, help="max base_name groups to process this run")
     parser.add_argument("--base-name", default="", help="process only one specific base_name")
