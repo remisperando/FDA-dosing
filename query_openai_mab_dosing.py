@@ -87,16 +87,16 @@ designated daily dose = (40 mg * 26) / 365.
 6. Drug strengths (drug_strengths_mg)
     * Using dosage_forms_and_strengths, extract all distinct strengths for this base_name in mg, ignoring:
         * the mL volume, and
-        * the form type (pen, syringe, vial, etc.).
+        * the form type (auto injector,pen, syringe, vial, etc.).
     * For example, from strings like:
         * 40 mg/0.8 mL pen
         * 40 mg/0.4 mL pen
         * 80 mg/0.8 mL syringe
         * 20 mg/0.2 mL syringe
-        * 10 mg/0.1 mL syringe you should extract the mg numerators: 40, 80, 20, 10.
+        * 10 mg/0.1 mL syringe you should extract the mg/mL and form type: 40/0.8 pen, 80/0.8 syringe, 20/0.2 syringe, 10/0.1 syringe.
     * Collect all unique mg strengths for the entire base_name group (across all brand_names and rows with that base_name).
     * Output them as a single field with values separated by |, sorted or unsorted, for example:
-10|20|40|80
+10/0.1 syringe|20/0.2 syringe|40/0.4 pen|40/0.8 pen|80/0.8 syringe
     * This drug_strengths_mg field is shared across all indications for that base_name (you do not need to tie specific strengths to specific indications).
 7. Use only the drug of interest
     * Only extract and use dosing information that clearly corresponds to this drug's base_name (and its associated brand_names).
@@ -119,7 +119,7 @@ designated daily dose = (40 mg * 26) / 365.
 * Output one line per adult indication and maintenance regimen in this exact comma-separated format:
 base_name, indication, mg/dose, dosing period, designated daily dose, drug per dosage form
 * Example (illustrative only):
-adalimumab, rheumatoid arthritis, 40, every other week, 2.85, 10|20|40|80
+adalimumab, rheumatoid arthritis, 40, every other week, 2.85, 10/0.1 syringe|20/0.2 syringe|40/0.4 pen|40/0.8 pen|80/0.8 syringe
 11. Safety and ambiguity rule
 * If you cannot confidently determine a required field (e.g., the adult maintenance dose or dosing period) from the text, skip that indication rather than guessing.
 Important behavior:
