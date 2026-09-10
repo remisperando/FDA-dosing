@@ -62,8 +62,8 @@ def fetch_ndc_page(search: str, limit: int, skip: int, retries: int = 3) -> dict
             raise
 
 
-def normalize_ndc_to_11(ndc_value: str) -> tuple[str, str, str, str]:
-    """Normalize NDC to 11-digit 5-4-2 and return (ndc11, labeler, product, package)."""
+def normalize_ndc_to_11(ndc_value: str, product_ndc: str = "") -> tuple[str, str, str, str]:
+    """Normalize NDC to 11-digit 5-4-2 using product NDC boundaries when needed."""
     raw = (ndc_value or "").strip()
     if not raw:
         return "", "", "", ""
@@ -85,16 +85,18 @@ def normalize_ndc_to_11(ndc_value: str) -> tuple[str, str, str, str]:
         package = digits[9:11]
         return digits, labeler, product, package
 
-    if len(digits) == 10:
-        # When hyphen layout is unavailable, infer using official 10-digit patterns.
-        # Preference order here reflects the most common package-NDC shape in openFDA.
-        for l_len, p_len, pk_len in ((5, 3, 2), (5, 4, 1), (4, 4, 2)):
-            if l_len + p_len + pk_len != 10:
-                continue
-            labeler = digits[:l_len].zfill(5)
-            product = digits[l_len : l_len + p_len].zfill(4)
-            package = digits[l_len + p_len :].zfill(2)
-            return f"{labeler}{product}{package}", labeler, product, package
+    if len(digits) == 10 and product_ndc:
+        product_parts = [part.strip() for part in product_ndc.split("-") if part.strip()]
+        if len(product_parts) == 2 and all(part.isdigit() for part in product_parts):
+            labeler_raw, product_raw = product_parts
+            product_prefix = labeler_raw + product_raw
+            if len(labeler_raw) <= 5 and len(product_raw) <= 4 and digits.startswith(product_prefix):
+                package_raw = digits[len(product_prefix) :]
+                if len(package_raw) <= 2:
+                    labeler = labeler_raw.zfill(5)
+                    product = product_raw.zfill(4)
+                    package = package_raw.zfill(2)
+                    return f"{labeler}{product}{package}", labeler, product, package
 
     return "", "", "", ""
 
@@ -103,6 +105,7 @@ def build_rows_for_result(input_name: str, result: dict) -> list[dict[str, str]]
     """Flatten one openFDA NDC result into package-level rows."""
     brand_name = str(result.get("brand_name", "") or "")
     labeler_name = str(result.get("labeler_name", "") or "")
+    product_ndc = str(result.get("product_ndc", "") or "")
 
     packaging = result.get("packaging")
     if not isinstance(packaging, list) or not packaging:
@@ -111,7 +114,7 @@ def build_rows_for_result(input_name: str, result: dict) -> list[dict[str, str]]
     rows: list[dict[str, str]] = []
     for package in packaging:
         package_ndc_raw = str((package or {}).get("package_ndc", "") or "")
-        ndc11, _, _, _ = normalize_ndc_to_11(package_ndc_raw)
+        ndc11, _, _, _ = normalize_ndc_to_11(package_ndc_raw, product_ndc=product_ndc)
 
         if not ndc11:
             continue
